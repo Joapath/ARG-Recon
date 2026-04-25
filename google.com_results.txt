@@ -1,0 +1,178 @@
+==== NMAP ====
+Starting Nmap 7.95 ( https://nmap.org ) at 2026-04-25 00:47 -03
+Nmap scan report for google.com (142.251.128.46)
+Host is up (0.090s latency).
+Other addresses for google.com (not scanned): 2800:3f0:4002:804::200e
+rDNS record for 142.251.128.46: gru06s68-in-f14.1e100.net
+Not shown: 997 filtered tcp ports (no-response), 1 filtered tcp ports (net-unreach)
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      gws
+443/tcp open  ssl/https gws
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.95%I=7%D=4/25%Time=69EC394C%P=x86_64-pc-linux-gnu%r(GetR
+SF:equest,36B0,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Sat,\x2025\x20Apr\x2020
+SF:26\x2003:47:24\x20GMT\r\nExpires:\x20-1\r\nCache-Control:\x20private,\x
+SF:20max-age=0\r\nContent-Type:\x20text/html;\x20charset=ISO-8859-1\r\nCon
+SF:tent-Security-Policy-Report-Only:\x20object-src\x20'none';base-uri\x20'
+SF:self';script-src\x20'nonce-LheimXq5luzhEdLMsrEcLg'\x20'strict-dynamic'\
+SF:x20'report-sample'\x20'unsafe-eval'\x20'unsafe-inline'\x20https:\x20htt
+SF:p:;report-uri\x20https://csp\.withgoogle\.com/csp/gws/other-hp\r\nP3P:\
+SF:x20CP=\"This\x20is\x20not\x20a\x20P3P\x20policy!\x20See\x20g\.co/p3phel
+SF:p\x20for\x20more\x20info\.\"\r\nServer:\x20gws\r\nX-XSS-Protection:\x20
+SF:0\r\nX-Frame-Options:\x20SAMEORIGIN\r\nSet-Cookie:\x20__Secure-STRP=AEE
+SF:P7gL4A9cxbogv_4qIxpb1lt8PrN2ccxiUOaVhzDsxPlix-24udOsW-Csx7Fq6FWTZBRFrSI
+SF:ZbDbpETrZ9oLlmWkXfk17UNA;\x20expires=Sat,\x2025-Apr-2026\x2003:52:24\x2
+SF:0GMT;\x20path=/;\x20domain=\.google\.com;\x20Secure;\x20SameSite=strict
+SF:\r\nSet-Cookie:\x20AEC=AaJma5sjStk_DpT75hKcnVOAwF8GvBFUCccYX1Yzgf0NolIb
+SF:R5XGH8ovGoI;\x20expires=Thu,\x2022-Oct-2026\x2003:47:24\x20GMT;\x20path
+SF:=/;\x20domain=\.google\.com;\x20Secure;\x20HttpOn")%r(HTTPOptions,6DC,"
+SF:HTTP/1\.0\x20405\x20Method\x20Not\x20Allowed\r\nContent-Type:\x20text/h
+SF:tml;\x20charset=UTF-8\r\nReferrer-Policy:\x20no-referrer\r\nContent-Len
+SF:gth:\x201592\r\nDate:\x20Sat,\x2025\x20Apr\x202026\x2003:47:24\x20GMT\r
+SF:\n\r\n<!DOCTYPE\x20html>\n<html\x20lang=en>\n\x20\x20<meta\x20charset=u
+SF:tf-8>\n\x20\x20<meta\x20name=viewport\x20content=\"initial-scale=1,\x20
+SF:minimum-scale=1,\x20width=device-width\">\n\x20\x20<title>Error\x20405\
+SF:x20\(Method\x20Not\x20Allowed\)!!1</title>\n\x20\x20<style>\n\x20\x20\x
+SF:20\x20\*{margin:0;padding:0}html,code{font:15px/22px\x20arial,sans-seri
+SF:f}html{background:#fff;color:#222;padding:15px}body{margin:7%\x20auto\x
+SF:200;max-width:390px;min-height:180px;padding:30px\x200\x2015px}\*\x20>\
+SF:x20body{background:url\(//www\.google\.com/images/errors/robot\.png\)\x
+SF:20100%\x205px\x20no-repeat;padding-right:205px}p{margin:11px\x200\x2022
+SF:px;overflow:hidden}ins{color:#777;text-decoration:none}a\x20img{border:
+SF:0}@media\x20screen\x20and\x20\(max-width:772px\){body{background:none;m
+SF:argin-top:0;max-width:none;padding-right:0}}#logo{background:url\(//www
+SF:\.google\.com/images/branding");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.95%T=SSL%I=7%D=4/25%Time=69EC3952%P=x86_64-pc-linux-gnu
+SF:%r(GetRequest,1D60,"HTTP/1\.0\x20200\x20OK\r\nDate:\x20Sat,\x2025\x20Ap
+SF:r\x202026\x2003:47:30\x20GMT\r\nExpires:\x20-1\r\nCache-Control:\x20pri
+SF:vate,\x20max-age=0\r\nContent-Type:\x20text/html;\x20charset=ISO-8859-1
+SF:\r\nContent-Security-Policy-Report-Only:\x20object-src\x20'none';base-u
+SF:ri\x20'self';script-src\x20'nonce-JnGkVoRrzYwqXudg_pSg4g'\x20'strict-dy
+SF:namic'\x20'report-sample'\x20'unsafe-eval'\x20'unsafe-inline'\x20https:
+SF:\x20http:;report-uri\x20https://csp\.withgoogle\.com/csp/gws/other-hp\r
+SF:\nAccept-CH:\x20Sec-CH-Prefers-Color-Scheme\r\nP3P:\x20CP=\"This\x20is\
+SF:x20not\x20a\x20P3P\x20policy!\x20See\x20g\.co/p3phelp\x20for\x20more\x2
+SF:0info\.\"\r\nServer:\x20gws\r\nX-XSS-Protection:\x200\r\nX-Frame-Option
+SF:s:\x20SAMEORIGIN\r\nSet-Cookie:\x20__Secure-STRP=AEEP7gJp0cayzoQombtgFD
+SF:oYenVz2xSlDwIZEFtbf15MRZmHVOmZAMOyruFuSszgU9xGHaF_11h6uTMEN81JLhjqDpgGL
+SF:_4JHQ;\x20expires=Sat,\x2025-Apr-2026\x2003:52:30\x20GMT;\x20path=/;\x2
+SF:0domain=\.google\.com;\x20Secure;\x20SameSite=strict\r\nSet-Cookie:\x20
+SF:AEC=AaJma5tvnzbIhdwLoMPrn8nQQL0tuBj9gex9Kt4h6eOb1sZCNIbgW6vVyw;\x20expi
+SF:res=Thu,\x2022-Oct-2026\x2003:47:30\x20GMT;\x20pat");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 99.16 seconds
+
+
+==== WHOIS ====
+   Domain Name: GOOGLE.COM
+   Registry Domain ID: 2138514_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.markmonitor.com
+   Registrar URL: http://www.markmonitor.com
+   Updated Date: 2019-09-09T15:39:04Z
+   Creation Date: 1997-09-15T04:00:00Z
+   Registry Expiry Date: 2028-09-14T04:00:00Z
+   Registrar: MarkMonitor Inc.
+   Registrar IANA ID: 292
+   Registrar Abuse Contact Email: abusecomplaints@markmonitor.com
+   Registrar Abuse Contact Phone: +1.2086851750
+   Domain Status: clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+   Domain Status: clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+   Domain Status: clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+   Domain Status: serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited
+   Domain Status: serverTransferProhibited https://icann.org/epp#serverTransferProhibited
+   Domain Status: serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited
+   Name Server: NS1.GOOGLE.COM
+   Name Server: NS2.GOOGLE.COM
+   Name Server: NS3.GOOGLE.COM
+   Name Server: NS4.GOOGLE.COM
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of whois database: 2026-04-25T03:48:26Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the expiration
+date of the domain name registrant's agreement with the sponsoring
+registrar.  Users may consult the sponsoring registrar's Whois database to
+view the registrar's reported date of expiration for this registration.
+
+Domain Name: google.com
+Registry Domain ID: 2138514_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.markmonitor.com
+Registrar URL: http://www.markmonitor.com
+Updated Date: 2024-08-02T02:17:33+0000
+Creation Date: 1997-09-15T07:00:00+0000
+Registrar Registration Expiration Date: 2028-09-13T07:00:00+0000
+Registrar: MarkMonitor, Inc.
+Registrar IANA ID: 292
+Registrar Abuse Contact: https://corp.markmonitor.com/domain/ui/abuse-report
+Registrar Abuse Contact Phone: +1.2086851750
+Domain Status: clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)
+Domain Status: clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)
+Domain Status: clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)
+Domain Status: serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)
+Domain Status: serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)
+Domain Status: serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)
+Registrant Organization: Google LLC
+Registrant Country: US
+Registrant Email: Select Request Email Form at https://domains.markmonitor.com/whois/google.com
+Tech Email: Select Request Email Form at https://domains.markmonitor.com/whois/google.com
+Name Server: ns3.google.com
+Name Server: ns2.google.com
+Name Server: ns1.google.com
+Name Server: ns4.google.com
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+>>> Last update of WHOIS database: 2026-04-25T03:48:37+0000 <<<
+
+For more information on WHOIS status codes, please visit:
+  https://www.icann.org/resources/pages/epp-status-codes
+
+If you wish to contact this domain’s Registrant or Technical
+contact, and such email address is not visible above, you may do so via our web
+form, pursuant to ICANN’s Temporary Specification. To verify that you are not a
+robot, please enter your email address to receive a link to a page that
+facilitates email communication with the relevant contact(s).
+
+Web-based WHOIS:
+  https://domains.markmonitor.com/whois/contact/google.com
+
+If you have a legitimate interest in viewing the non-public WHOIS details, send
+your request and the reasons for your request to whoisrequest@markmonitor.com
+and specify the domain name in the subject line. We will review that request and
+may ask for supporting documentation and explanation.
+
+
+
+==== DIG ====google.com.		145	IN	A	142.251.128.238
+google.com.		145	IN	AAAA	2800:3f0:4002:809::200e
+google.com.		59	IN	SOA	ns1.google.com. dns-admin.google.com. 904926899 900 900 1800 60
+google.com.		229066	IN	NS	ns3.google.com.
+google.com.		229066	IN	NS	ns2.google.com.
+google.com.		229066	IN	NS	ns1.google.com.
+google.com.		229066	IN	NS	ns4.google.com.
+
+
+==== NSLOOKUP ====Server:		186.130.128.250
+Address:	186.130.128.250#53
+
+Non-authoritative answer:
+Name:	google.com
+Address: 142.251.128.238
+Name:	google.com
+Address: 2800:3f0:4002:805::200e
+
+
+
+==== HTTPX ====Error: 
+Usage: httpx [OPTIONS] URL
+
+Error: No such option: -u
+
+
+==== WAFW00F ====Error: waffw00f google.com no esta instalado
